@@ -2,7 +2,7 @@
     var app = angular.module('store', []);
 
     app.controller('StoreController', function () {
-        this.products = stars;
+        $scope.products = stars;
     });
     var stars = [
         {
